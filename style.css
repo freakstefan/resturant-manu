@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "barlow", sans-serif;
+}
+
+.main-div {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  padding-top: 8rem;
+}
+.menu-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 2.5rem;
+  text-decoration: underline #c59d5f;
+  font-family: "barlow", sans-serif;
+}
+.breakfast {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.breakfast div {
+  border: 0.1rem solid #c59d5f;
+  padding: 0.5rem 2.5rem;
+  border-radius: 0.5rem;
+  color: #c59d5f;
+  background: #f0f0f0;
+  font-size: 1.5rem;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* justify-content: space-between; */
+  margin-top: 5rem;
+  /* padding-left: 4rem; */
+}
+.container {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding-left: 4rem;
+  display: flex;
+  padding-top: 5rem;
+}
+
+.image1 {
+  max-width: 20rem;
+  border: 0.5rem solid #c59d5f;
+  border-radius: 0.9rem;
+}
+.dinner {
+  padding-left: 2rem;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: 1fr 1fr; */
+  margin-bottom: 1rem;
+  border-bottom: 0.1rem dotted black;
+}
+.h3 {
+  font-size: 1.5rem;
+}
+.dollars {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #c59d5f;
+}
+.p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.American-classic {
+  padding-left: 2rem;
+}
+/*.main-classic {
+  display: flex;
+  margin-right: 13rem;
+}
+/*.container2 {
+  display: flex;
+  /* justify-content: space-between; */
+/* padding-top: 5rem; */
+/* padding-left: 4rem; */
+/* gap: 10rem; */
+/* } */
+/*.container3 {
+  /* display: flex; */
+/* padding-top: 5rem; 
+  padding-top: 5rem;
+  padding-left: 4rem;
+  display: flex;
+}*/
+.buddy {
+  padding-left: 2rem;
+}
+/*.container4 {
+  padding-left: 4rem;
+  display: flex;
+}*/
+
+/*.bacon {
+  margin-left: 15rem;
+}*/
+.overflow {
+  padding-left: 2rem;
+}
+
+.oreo {
+  padding-left: 2rem;
+}
+
+/*.container6 {
+  padding-left: 4rem;
+}*/
+/*.egg {
+  margin-left: 14rem;
+}*/
+.attack {
+  padding-left: 2rem;
+}
+/*.container4 {
+  display: flex;
+  padding-top: 5rem;
+  padding-left: 4rem;
+}*/
+/*.container7 {
+  padding-left: 4rem;
+}*/
+.delight {
+  padding-left: 2rem;
+}
+/*.container8 {
+  padding-left: 4rem;
+}*/
+.image2 {
+  width: 20rem;
+  height: 20vh;
+  border: 0.5rem solid #c59d5f;
+  border-radius: 0.9rem;
+}
+/*.godzilla {
+  margin-left: 17rem;
+}*/
+.milkshake {
+  padding-left: 2rem;
+}
+/*.container5 {
+  display: flex;
+  padding-top: 5rem;
+  padding-left: 4rem;
+}*/
+
+/*.container9 {
+  padding-left: 4rem;
+}*/
+.double {
+  padding-left: 2rem;
+}
+/*.buttermilik {
+  margin-left: 14rem;
+}*/
+/*.container10 {
+  padding-left: 4rem;
+}*/
+.pancakes {
+  padding-left: 2rem;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 74.12em) {
+  .p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 100;
+  }
+}
+
+@media (max-width: 73.68em) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .p {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+@media (max-width: 32.6em) {
+  .breakfast div {
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
