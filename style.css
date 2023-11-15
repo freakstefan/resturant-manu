@@ -53,6 +53,7 @@ html {
   padding-left: 4rem;
   display: flex;
   padding-top: 5rem;
+  position: relative;
 }
 
 .image1 {
@@ -203,6 +204,29 @@ html {
     line-height: 3rem;
   }
 }
+
+@media (max-width: 55.68em) {
+  .container {
+    /* position: absolute; */
+    flex-direction: column-reverse;
+    /* padding-left: 30rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 20rem; */
+    /* display: inline; */
+  }
+  .p {
+    font-size: 1.5rem;
+  }
+  .image1 {
+    margin-top: 2rem;
+  }
+  .image2 {
+    margin-top: 2rem;
+  }
+}
+
 @media (max-width: 32.6em) {
   .breakfast div {
     gap: 0.5rem;
