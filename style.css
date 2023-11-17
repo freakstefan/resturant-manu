@@ -206,6 +206,18 @@ html {
     font-size: 2.5rem;
     line-height: 3rem;
   }
+  .container {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.1rem dotted black;
+    padding-bottom: 2rem;
+  }
+  .menu-list {
+    border-bottom: none;
+    padding-bottom: 3rem;
+  }
 }
 
 @media (max-width: 55.68em) {
@@ -220,6 +232,7 @@ html {
     /* display: inline; */
     border-bottom: 0.1rem dotted black;
     padding-bottom: 2rem;
+    padding-right: 3rem;
   }
   .p {
     font-size: 1.5rem;
@@ -231,7 +244,7 @@ html {
     margin-top: 2rem;
   }
   .breakfast div {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     display: flex;
   }
 
@@ -244,7 +257,7 @@ html {
 @media (max-width: 32.6em) {
   .breakfast div {
     gap: 0.5rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 0.5rem;
   }
   .p {
     font-size: 1.5rem;
