@@ -40,6 +40,9 @@ html {
   background: #f0f0f0;
   font-size: 1.5rem;
 }
+.breakfast {
+  display: flex;
+}
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -215,6 +218,8 @@ html {
     align-items: center;
     /* margin-left: 20rem; */
     /* display: inline; */
+    border-bottom: 0.1rem dotted black;
+    padding-bottom: 2rem;
   }
   .p {
     font-size: 1.5rem;
@@ -224,6 +229,15 @@ html {
   }
   .image2 {
     margin-top: 2rem;
+  }
+  .breakfast div {
+    padding: 0.5rem 1rem;
+    display: flex;
+  }
+
+  .menu-list {
+    border-bottom: none;
+    padding-bottom: 3rem;
   }
 }
 
